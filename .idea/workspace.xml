@@ -7,22 +7,228 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a294f565-474d-4d7a-9fb2-b705a11bb913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/classes/META-INF/VegetableShops.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/Bean/Descripter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/Bean/addr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/Bean/goods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/Bean/orderitem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/Bean/orders.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/Bean/products.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/Bean/users.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/DAO/DAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/DAOFactory/DAOFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/DAOFactory/DAOFactoryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/DAOlmpl/DAOlmpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/servlet/cookie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/dbcp.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/mysql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/分页面.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/蔬菜分类.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VegetableShops.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VegetableShops.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mail.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mail.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/ognl-3.0.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ognl-3.0.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/slf4j-api-1.6.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/slf4j-api-1.6.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/slf4j-log4j12-1.7.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/slf4j-log4j12-1.7.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/struts2-core-2.3.15.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.3.15.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/struts2-json-plugin-2.3.15.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/struts2-json-plugin-2.3.15.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/struts2-spring-plugin-2.3.15.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/struts2-spring-plugin-2.3.15.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/xwork-core-2.3.15.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/xwork-core-2.3.15.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/category/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/abc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/abc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/bc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/bc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/bcc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/bcc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/beijingnongshang.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/beijingnongshang.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/bh.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/bh.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/bj.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/bj.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/ccb.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/ccb.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/cib.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/cib.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/cmb.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/cmb.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/cmbc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/cmbc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/dy.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/dy.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/gf.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/gf.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/guangda.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/guangda.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/hx.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/hx.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/icbc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/icbc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/nanjing.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/nanjing.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/ningbo.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/ningbo.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/pingan.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/pingan.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/post.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/post.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/sfz.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/sfz.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/sh.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/sh.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/shpd.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/shpd.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/zheshang.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/zheshang.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bank_img/zx.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bank_img/zx.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/category/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/category/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/category/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/css/Style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/Style1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/css/WdatePicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/WdatePicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/css/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/css/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/datepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/css/dtree.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/dtree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/css/left.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/left.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/css/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/059b5245-e3c8-43bf-80fe-700f0e4e68b8-thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/059b5245-e3c8-43bf-80fe-700f0e4e68b8-thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/0ff130db-0a1b-4b8d-a918-ed9016317009-thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/0ff130db-0a1b-4b8d-a918-ed9016317009-thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/1 .jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/1 .jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/12.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/12.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/4a51167a-89d5-4710-aca2-7c76edc355b8-thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/4a51167a-89d5-4710-aca2-7c76edc355b8-thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/51afeef5-f6cb-4936-abea-315cfca0edc0-thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/51afeef5-f6cb-4936-abea-315cfca0edc0-thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/54890cf9-91b0-40bc-9f68-51462e9c43a8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/54890cf9-91b0-40bc-9f68-51462e9c43a8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/750a9ce8-8c19-444d-b8cc-f3e7e786ec5d-thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/750a9ce8-8c19-444d-b8cc-f3e7e786ec5d-thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/93b9e55f-cbae-4c3c-b2f7-2636c7369db7-thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/93b9e55f-cbae-4c3c-b2f7-2636c7369db7-thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/adidas.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/adidas.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/beijirong.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/beijirong.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/bigPic13867cc1-935a-4a3a-98f9-edf87ddb1c09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/bigPic13867cc1-935a-4a3a-98f9-edf87ddb1c09.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/bigPic372e7faa-3ad0-444d-a89b-a8e9f0d6e929.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/bigPic372e7faa-3ad0-444d-a89b-a8e9f0d6e929.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/bigPic4ed6edbf-fb3e-49a7-be5e-361b2ce02961.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/bigPic4ed6edbf-fb3e-49a7-be5e-361b2ce02961.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/bigPic5ab54f67-a479-48fe-a41d-7d34b57036a3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/bigPic5ab54f67-a479-48fe-a41d-7d34b57036a3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/bigPica5720219-ba48-460a-a084-24d5b314bd03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/bigPica5720219-ba48-460a-a084-24d5b314bd03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/bigPica7e5d3dd-5984-4d0f-9851-35cc0987d9b9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/bigPica7e5d3dd-5984-4d0f-9851-35cc0987d9b9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/bigPicaa443d05-27b4-4964-958e-c81536f01d04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/bigPicaa443d05-27b4-4964-958e-c81536f01d04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/bigPicc1e3a29e-17f5-4d9f-a186-b2c5a0b39b88.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/bigPicc1e3a29e-17f5-4d9f-a186-b2c5a0b39b88.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/bigPicd0459632-fe4e-4a5d-8373-1a67c9f43ec2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/bigPicd0459632-fe4e-4a5d-8373-1a67c9f43ec2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/bigPice7c2e240-4147-4c11-b369-db3765ec3df9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/bigPice7c2e240-4147-4c11-b369-db3765ec3df9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/bigPicee0785e3-68e2-4e23-93ef-68904bc2a3c6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/bigPicee0785e3-68e2-4e23-93ef-68904bc2a3c6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/blank.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/blank.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/cart.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/cart.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/common.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/common.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/dadonggua.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/dadonggua.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/eifini.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/eifini.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/f37ba36a-181b-4161-a88f-f74c9adb485d-thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/f37ba36a-181b-4161-a88f-f74c9adb485d-thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/f5e39c37-94b2-462e-8e58-8bde3c5f1b8c-thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/f5e39c37-94b2-462e-8e58-8bde3c5f1b8c-thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/footer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/footer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/g.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/g.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/hengyuanxiang.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/hengyuanxiang.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/i.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/i.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/index_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/index_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/index_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/index_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/index_right.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/index_right.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/index_top.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/index_top.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/j.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/j.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/jackjones.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/jackjones.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/k.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/k.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/lining.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/lining.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/login.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/m.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/maoren.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/maoren.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/n.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/nike.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/nike.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/o.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/p.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/p.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/product.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/product.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/q.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/q.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/r___________renleipic_01/15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/r___________renleipic_01/15.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/r___________renleipic_01/bigPic139f030b-d68b-41dd-be6d-b94cc568d3c5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/r___________renleipic_01/bigPic139f030b-d68b-41dd-be6d-b94cc568d3c5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/r___________renleipic_01/bigPic19533252-0faa-4e64-8077-6e1908f47739.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/r___________renleipic_01/bigPic19533252-0faa-4e64-8077-6e1908f47739.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/r___________renleipic_01/bigPic1ea8f1c9-8b8e-4262-8ca9-690912434692.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/r___________renleipic_01/bigPic1ea8f1c9-8b8e-4262-8ca9-690912434692.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/r___________renleipic_01/bigPic5f3622b8-028a-4e62-a77f-f41a16d715ed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/r___________renleipic_01/bigPic5f3622b8-028a-4e62-a77f-f41a16d715ed.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/r___________renleipic_01/footer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/r___________renleipic_01/footer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/r___________renleipic_01/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/r___________renleipic_01/header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/r___________renleipic_01/lanqiao.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/r___________renleipic_01/lanqiao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/r___________renleipic_01/logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/r___________renleipic_01/logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/r___________renleipic_01/product.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/r___________renleipic_01/product.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/semir.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/semir.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/sentubila.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/sentubila.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/septwolves.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/septwolves.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/sundance.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/sundance.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/vimly.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/vimly.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/image/yishion.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/yishion.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/IconTexto_WebDev_009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/IconTexto_WebDev_009.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/article.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/article.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/cart.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/cart.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/common.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/common.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/dialog_overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/dialog_overlay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/error.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/error.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/finalbutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/finalbutton.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/gif53_029.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/gif53_029.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/i_del.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/i_del.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/i_edit.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/i_edit.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/index.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/index.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/info.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/info.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/loading_bar.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/loading_bar.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/loading_icon.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/loading_icon.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/login.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/login.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/member.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/member.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/message.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/message.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/mis_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/mis_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/mis_05a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/mis_05a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/mis_05b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/mis_05b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/mis_05c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/mis_05c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/order.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/order.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/password.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/password.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/product.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/product.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/register.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/register.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/review.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/review.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/shim.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/shim.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/top_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/top_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/top_100.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/top_100.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/base.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/base.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/cd.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/cd.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/empty.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/empty.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/folder.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/folder.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/folderopen.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/folderopen.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/globe.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/globe.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/imgfolder.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/imgfolder.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/join.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/join.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/joinbottom.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/joinbottom.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/line.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/line.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/minus.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/minus.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/minusbottom.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/minusbottom.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/musicfolder.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/musicfolder.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/nolines_minus.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/nolines_minus.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/nolines_plus.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/nolines_plus.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/page.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/page.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/plus.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/plus.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/plusbottom.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/plusbottom.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/question.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/question.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/images/tree/trash.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/tree/trash.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/.svn/pristine/3d/3dc621d1efd0f1380686c9be7529c0dcf3dc8bc8.svn-base" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/js/dtree.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/dtree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/js/jquery-1.8.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/jquery-1.8.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/.svn/pristine/37/3792fad3f74aca029661c68e2b632813dddac729.svn-base" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/msg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/msg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/regist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/分页面.htm" beforeDir="false" afterPath="$PROJECT_DIR$/.svn/pristine/c7/c7b437b39a4443733723d7021f57508ef98592c0.svn-base" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/蔬菜分类.htm" beforeDir="false" afterPath="$PROJECT_DIR$/.svn/pristine/3e/3ee41a0967606ddaf9bd4beed65394bddd503b1c.svn-base" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/订单.htm" beforeDir="false" afterPath="$PROJECT_DIR$/web/订单.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/购物车.htm" beforeDir="false" afterPath="$PROJECT_DIR$/web/购物车.htm" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -55,16 +261,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/home.jsp">
+        <entry file="file://$PROJECT_DIR$/web/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/bottom.jsp">
+        <entry file="file://$PROJECT_DIR$/web/bottom.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
               <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
@@ -75,23 +281,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mysql.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            <state relative-caret-position="207">
+              <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/left.jsp">
+        <entry file="file://$PROJECT_DIR$/web/left.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/订单.htm">
+        <entry file="file://$PROJECT_DIR$/web/订单.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="118">
               <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
@@ -100,7 +306,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/购物车.htm">
+        <entry file="file://$PROJECT_DIR$/web/购物车.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
               <caret line="100" column="34" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
@@ -123,13 +329,13 @@
         <entry file="file://$PROJECT_DIR$/src/com/servlet/cookie.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/top.jsp">
+        <entry file="file://$PROJECT_DIR$/web/top.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
@@ -138,7 +344,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/welcome.jsp">
+        <entry file="file://$PROJECT_DIR$/web/welcome.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
               <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
@@ -225,8 +431,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="429" />
-    <option name="y" value="23" />
+    <option name="x" value="52" />
+    <option name="y" value="39" />
     <option name="width" value="1554" />
     <option name="height" value="872" />
   </component>
@@ -282,6 +488,7 @@
       <recent name="com.DAOFactory" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\77105\Desktop\svn\lq_no1\VegetableShops\web" />
       <recent name="C:\Users\77105\Desktop\svn\lq_no1\VegetableShops\WebContent" />
       <recent name="C:\Users\77105\Desktop\svn\lq_no1\VegetableShops\WebContent\WEB-INF" />
     </key>
@@ -455,7 +662,7 @@
       <workItem from="1556787420354" duration="1456000" />
       <workItem from="1557027253764" duration="1967000" />
       <workItem from="1557048944883" duration="13053000" />
-      <workItem from="1557156940307" duration="15503000" />
+      <workItem from="1557156940307" duration="16054000" />
     </task>
     <task id="LOCAL-00001">
       <created>1557211413834</created>
@@ -471,7 +678,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557238145994</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial">
+      <created>1557238477735</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557238477735</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -507,12 +721,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32299000" />
+    <option name="totallyTimeSpent" value="32850000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="375" y="167" width="1554" height="872" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915683" visible="true" weight="0.2073955" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915683" visible="true" weight="0.2611336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -522,11 +737,11 @@
       <window_info id="UI Designer" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info id="Learn" order="9" />
-      <window_info id="Web" order="10" sideWeight="0.50084317" side_tool="true" visible="true" weight="0.2073955" />
+      <window_info id="Web" order="10" sideWeight="0.50084317" side_tool="true" weight="0.2073955" />
       <window_info anchor="bottom" id="Database Console" weight="0.32993197" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785638" visible="true" weight="0.3276644" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785638" visible="true" weight="0.40934843" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49839228" weight="0.39909297" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -646,7 +861,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF">
+    <entry file="file://$PROJECT_DIR$/web/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -656,7 +871,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
@@ -677,16 +892,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/image/r___________renleipic_01/lanqiao.png">
+    <entry file="file://$PROJECT_DIR$/web/image/r___________renleipic_01/lanqiao.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/login.jsp">
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/block/com/lq/veg/block/domain/Block.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/分页面.htm">
+    <entry file="file://$PROJECT_DIR$/web/分页面.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
@@ -985,42 +1200,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-368">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/welcome.jsp">
+    <entry file="file://$PROJECT_DIR$/web/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/bottom.jsp">
+    <entry file="file://$PROJECT_DIR$/web/bottom.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/top.jsp">
+    <entry file="file://$PROJECT_DIR$/web/top.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/home.jsp">
+    <entry file="file://$PROJECT_DIR$/web/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/js/dtree.js">
+    <entry file="file://$PROJECT_DIR$/web/js/dtree.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1541">
           <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
@@ -1030,17 +1245,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/left.jsp">
+    <entry file="file://$PROJECT_DIR$/web/left.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/cart.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/订单.htm">
+    <entry file="file://$PROJECT_DIR$/web/订单.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
@@ -1050,14 +1265,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/servlet/cookie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.classpath">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/购物车.htm">
+    <entry file="file://$PROJECT_DIR$/web/购物车.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="100" column="34" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
@@ -1077,8 +1292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mysql.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        <state relative-caret-position="207">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1093,6 +1308,7 @@
             <option name="proportions">
               <list>
                 <option value="0.20588236" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1100,7 +1316,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web2 (VegetableShops)|Web</last-edited>
+          <last-edited>Web (VegetableShops)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1136,12 +1352,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>VegetableShops</last-edited>
+          <last-edited>Web|VegetableShops</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.20588236" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
