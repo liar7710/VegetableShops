@@ -3,9 +3,9 @@ driverClassName=com.mysql.cj.jdbc.Driver
 #通过JDBC建立一个连接所需的URL
 url=jdbc:mysql://192.168.137.128:3306/store
 #通过JDBC建立一个连接所需的用户名
-username=store
+username=root
 #通过JDBC建立一个连接所需的密码
-password=store
+password=wh960903
 
 #当这个池被启动时初始化的创建的连接个数
 initialSize=30

@@ -6,7 +6,6 @@ import java.sql.Timestamp;
 
 public class users {
     public static final String table="users";
-    private int id;
     private String username;
     private String password;
     private String nickname;
@@ -19,14 +18,6 @@ public class users {
 
     public static String getTable() {
         return table;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getUsername() {

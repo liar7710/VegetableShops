@@ -11,7 +11,7 @@ public class orders {
     private int total_quanity;
     private int paystate;
     private Timestamp ordertime;
-    private int user_id;
+    private String u_name;
     private String consignee;
     private String tel;
     private String address;
@@ -60,12 +60,12 @@ public class orders {
         this.ordertime = ordertime;
     }
 
-    public int getUser_id() {
-        return user_id;
+    public String getU_name() {
+        return u_name;
     }
 
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
+    public void setU_name(String u_name) {
+        this.u_name = u_name;
     }
 
     public String getConsignee() {

@@ -13,7 +13,6 @@ create table users (  #用户表
 					   active_code varchar(100), #激活码
                        updatetime timestamp #创建时间
 );
-
 create table addr(  #用户收货地址表
 					 id int primary key auto_increment,
 					 address varchar(255), #收货地址
@@ -26,9 +25,11 @@ create table products(  #商品表
 						 id int primary key auto_increment,
 						 name varchar(40),
 						 price double,
-						 category varchar(40), #商品分类
+						 category_1 varchar(40), #商品分类
+						 category_2 varchar(40), #商品分类
 						 pnum int , #商品库存
 						 imgurl varchar(100),
+						 status tinyint,
 	description varchar(255) #商品描述
 	);
 create table orders(  #订单表
@@ -38,25 +39,16 @@ create table orders(  #订单表
 					   paystate int,  #支付状态
 					   ordertime timestamp, #订单创建时间
 					   u_name varchar(40) references users(username),
-	consignee varchar(100),  #收货人
+					   consignee varchar(100),  #收货人
                        tel varchar(20),
-	address varchar(255) #收货地址
-	);
-create table goods(  #订单中的商品表
-					  id int primary key ,
-					  name varchar(40),
-					  price double,
-					  category varchar(40),
-					  quantity int ,  #购买数量
-					  imgurl varchar(100),
-	description varchar(255)
+					   address varchar(255) #收货地址
 	);
 create table orderitem(
 						  order_id int,
-						  goods_id int,
 						  product_id int,
-						  buynum int ,
+						  price double,
+						  num int ,
 						  primary key(order_id,product_id), #联合主键,两列的值加在一起作为这张表的主键使用
-							  foreign key(order_id) references orders(id),
-						  foreign key(product_id) references goods(id)
+						  foreign key(order_id) references orders(id),
+						  foreign key(product_id) references products(id)
 );
